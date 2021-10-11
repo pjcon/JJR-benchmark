@@ -74,16 +74,22 @@ def copy_records_old(src):
         shutil.copy(ffrom, fto)
 
 def copy_records(src):
-    subprocess.call(['./call_transfer.sh', str(src), '/var/lib/mysql/clientdb'])
+    subprocess.call(['./bin/call_transfer.sh', str(src), '/var/lib/mysql/clientdb'])
+
+def delete_all_records():
+    subprocess.call(['./bin/call_delete_data.sh', 'all'])
+
+def delete_new_records():
+    subprocess.call(['./bin/call_delete_data.sh', 'new'])
 
 def load_records():
-    subprocess.call(['./call_load_data.sh'])
+    subprocess.call(['./bin/call_load_data.sh'])
 
-def call_procedure():
-    subprocess.call(['./call_procedure.sh'])
+def call_procedure(n=''):
+    subprocess.call(['./bin/call_procedure.sh', str(n)])
 
 def count_jobrecords():
-    return int(subprocess.check_output(['./call_count_jobrecords.sh']).decode().strip('\n'))
+    return int(subprocess.check_output(['./bin/call_count_jobrecords.sh']).decode().strip('\n'))
 
 
 def run(n, dir='./'):
@@ -92,6 +98,9 @@ def run(n, dir='./'):
 
     logging.debug('Transferring records.')
     copy_records(dir)
+
+    logging.debug('Deleting all records.')
+    delete_all_records()
 
     logging.debug('Loading records.')
     load_records()
