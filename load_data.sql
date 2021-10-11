@@ -1,0 +1,24 @@
+USE clientdb;
+
+DELETE FROM BlahdRecords;
+DELETE FROM SpecRecords;
+DELETE FROM EventRecords;
+DELETE FROM JobRecords;
+
+LOAD DATA INFILE 'spec.csv' INTO TABLE SpecRecords 
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\n' 
+    IGNORE 3 ROWS;
+
+LOAD DATA INFILE 'blahd.csv' INTO TABLE BlahdRecords 
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\n' 
+    IGNORE 3 ROWS;
+ 
+LOAD DATA INFILE 'event.csv' INTO TABLE EventRecords 
+    FIELDS TERMINATED BY ',' 
+    ENCLOSED BY '"' 
+    LINES TERMINATED BY '\n' 
+    IGNORE 3 ROWS;
