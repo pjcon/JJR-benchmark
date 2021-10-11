@@ -1,7 +1,9 @@
 #!/bin/env python
 
 """
-[ ] plotting
+
+
+
 """
 
 import os
@@ -165,13 +167,3 @@ if __name__ == '__main__':
     shutil.copy(results_file, config['results_file'])
 
     logging.info(f'Finished: {finish_time}')
-
-
-
-
-
-
-
-
-
-

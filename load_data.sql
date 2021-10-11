@@ -1,10 +1,5 @@
 USE clientdb;
 
-DELETE FROM BlahdRecords;
-DELETE FROM SpecRecords;
-DELETE FROM EventRecords;
-DELETE FROM JobRecords;
-
 LOAD DATA INFILE 'spec.csv' INTO TABLE SpecRecords 
     FIELDS TERMINATED BY ',' 
     ENCLOSED BY '"' 

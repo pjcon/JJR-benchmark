@@ -1,3 +1,2 @@
 USE clientdb;
-
 CALL JoinJobRecords;
