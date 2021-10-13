@@ -26,7 +26,7 @@ config = {
         'n_repeat': 1,
         'schedule': 'linear', # linear/exponential
         'results_key': ['num_records', 'num_jobrecords', 'procedure_time'],
-        'mode':'fresh' # fresh/old - fresh deletes all data, old deletes only recent records
+        'delete_old_records':True 
 }
 
 def get_datetime():
@@ -98,12 +98,9 @@ def run(n, dir='./'):
     logging.debug('Transferring records.')
     copy_records(dir)
 
-    if config['mode'] == 'fresh':
-        logging.debug('Deleting all records. (mode: fresh)')
+    if config['delete_old_records']:
+        logging.debug(f'Deleting all records. ({config["delete_old_records"]})')
         delete_all_records()
-    else:
-        logging.debug('Deleting new records. (mode: new)')
-        delete_new_records()
 
     logging.debug('Loading records.')
     load_records()
