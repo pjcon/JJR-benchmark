@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo mysql -u root < load_data.sql
+FULLPATH="$(dirname $(realpath $0))"
+sudo mysql -u root < "$FULLPATH/load_data.sql"

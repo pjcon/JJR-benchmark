@@ -16,18 +16,17 @@ import subprocess
 
 import numpy as np
 
-import gen_records
-
 config = {
         'experiment_dir': './tests',
         'log_file': './tests/log',
         'results_file': './results.csv',
-        'n_records_start': 1000,
-        'n_records_stop': 100000,
+        'n_records_start': 100,
+        'n_records_stop': 1000,
         'n_steps': 10,
         'n_repeat': 1,
-        'schedule': 'linear',
+        'schedule': 'linear', # linear/exponential
         'results_key': ['num_records', 'num_jobrecords', 'procedure_time']
+        'mode':'fresh' # fresh/old - fresh deletes all data, old deletes only recent records
 }
 
 def get_datetime():
@@ -52,7 +51,7 @@ def write_results(session, results_file, results):
             res.write(','.join([str(k) for k in r]) + '\n')
 
 def generate_records(n, dir):
-    from gen_records import JoinJobRecordsGenerator
+    from bin.gen_records import JoinJobRecordsGenerator
     jjrg = JoinJobRecordsGenerator(n, 1, dir)
     jjrg.write_messages('csv')
 
@@ -74,19 +73,19 @@ def copy_records_old(src):
         shutil.copy(ffrom, fto)
 
 def copy_records(src):
-    subprocess.call(['./bin/call_transfer.sh', str(src), '/var/lib/mysql/clientdb'])
+    subprocess.call(['bin/call_transfer.sh', str(src), '/var/lib/mysql/clientdb'])
 
 def delete_all_records():
-    subprocess.call(['./bin/call_delete_data.sh', 'all'])
+    subprocess.call(['bin/call_delete_data.sh', 'all'])
 
 def delete_new_records():
-    subprocess.call(['./bin/call_delete_data.sh', 'new'])
+    subprocess.call(['bin/call_delete_data.sh', 'new'])
 
 def load_records():
-    subprocess.call(['./bin/call_load_data.sh'])
+    subprocess.call(['bin/call_load_data.sh'])
 
 def call_procedure(n=''):
-    subprocess.call(['./bin/call_procedure.sh', str(n)])
+    subprocess.call(['bin/call_procedure.sh', str(n)])
 
 def count_jobrecords():
     return int(subprocess.check_output(['./bin/call_count_jobrecords.sh']).decode().strip('\n'))
@@ -99,8 +98,12 @@ def run(n, dir='./'):
     logging.debug('Transferring records.')
     copy_records(dir)
 
-    logging.debug('Deleting all records.')
-    delete_all_records()
+    if config['mode'] == 'fresh':
+        logging.debug('Deleting all records. (mode: fresh)')
+        delete_all_records()
+    else:
+        logging.debug('Deleting new records. (mode: new)')
+        delete_new_records()
 
     logging.debug('Loading records.')
     load_records()

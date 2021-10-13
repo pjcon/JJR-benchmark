@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo ./transfer.py $1 $2
+FULLPATH="$(dirname $(realpath $0))"
+sudo $FULLPATH/transfer.py $1 $2
