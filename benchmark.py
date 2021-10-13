@@ -20,42 +20,79 @@ config = {
         'experiment_dir': './tests',
         'log_file': './tests/log',
         'results_file': './results.csv',
-        'n_records_start': 100,
-        'n_records_stop': 1000,
-        'n_steps': 10,
+        #'n_records_start': 100,
+        #'n_records_stop': 1000,
+        #'n_steps': 10,
         'n_repeat': 1,
-        'schedule': 'linear', # linear/exponential/power10
+        'schedule': [10, 20, 30, 40, 50], # <list>/linear/exponential/power10
+        'preload':True, # repeat schedule starting with preloaded values
+        'preload_schedule':[10, 100, 1000, 2000],
+        #'preload_scale':[1,2,3,4],
         'results_key': [ 'procedure_time',
                          'num_records_generated', 
-                         'num_job_pre', 'num_job_post',
                          'num_blahd_pre', 'num_blahd_post',
                          'num_event_pre', 'num_event_post',
+                         'num_job_pre', 'num_job_post',
                          ],
-        'delete_old_records':True 
+        'delete_old_records':True
 }
 
 def get_datetime():
     return datetime.datetime.now()
 
-def mkschedule(start, stop, n, r, method='exponential'):
-    rng = stop - start
+def mkschedule():
 
-    if method == 'exponential':
-        return np.array([start+np.power(rng, i/(n-1))-1 for i in np.arange(n)], dtype=int).repeat(r)
-    elif method == 'linear':
-        return np.array([start+rng*(i)/(n-1) for i in np.arange(n)], dtype=int).repeat(r)
-    elif method == 'power10':
-        return np.array([start+np.power(rng, i/(n-1))-1 for i in np.arange(n)], dtype=int).repeat(r)
+    method = config['schedule']
+    repeat = config['n_repeat']
+
+    if type(method) is list:
+        sch = np.array(method).repeat(repeat)
+    else:
+        start = config['n_records_start']
+
+        if 'n_steps' in config.keys():
+            n_steps = config['n_steps']
+
+        if 'n_records_stop' in config.keys():
+            stop = config['n_records_stop']
+            rng = start - stop
+
+        if method == 'exponential':
+            sch = np.array([start+np.power(rng, i/(n_steps-1))-1 for i in np.arange(n_steps)], dtype=int).repeat(r)
+        elif method == 'linear':
+            sch = np.array([start+rng*(i)/(n_steps-1) for i in np.arange(n_steps)], dtype=int).repeat(r)
+        elif method == 'power10':
+            sch = np.array([start+np.power(10, i) for i in np.arange(n_steps)], dtype=int).repeat(r)
+
+    if config['preload']:
+        pre = np.array(config['preload_schedule'])
+        n_p = np.size(pre)
+
+        k = sch[np.newaxis, :].repeat(n_p, axis=0)
+        
+        if 'preload_scale' in config.keys():
+            s = np.array(config['preload_scale'])
+            k = k*s[:, np.newaxis]
+
+        j = (pre[:, np.newaxis])
+        sch = np.concatenate([j, k], axis=1)
+
+    return sch.reshape(-1)
+
+    
+
 
 def write_results(session, results_file, results):
     logging.info(f'Date: {get_datetime()}')
     logging.info(f'Writing results to: {results_file}')
+
+    key = list(results[0].keys())
     with open(results_file, 'a') as res:
         res.write(f'Session: {session}\n')
+        res.write(','.join(key) + '\n')
 
-        res.write(','.join(config['results_key']) + '\n')
         for r in results:
-            res.write(','.join([str(k) for k in r]) + '\n')
+            res.write(','.join([str(k) for k in r.values()]) + '\n')
 
 def generate_records(n, dir):
     from bin.gen_records import JoinJobRecordsGenerator
@@ -100,7 +137,6 @@ def count_records():
 #def write_results(**kwargs): # kwargs should match results key
     #pass
 
-
 def run(n, dir='./'):
 
     logging.debug('Generating records.')
@@ -120,7 +156,6 @@ def run(n, dir='./'):
     num_job_pre, num_blahd_pre, num_event_pre = count_records()
 
     logging.debug(f'Running procedure...')
-
     run_start = time.time()
     call_procedure()
     run_time = time.time() - run_start
@@ -128,42 +163,40 @@ def run(n, dir='./'):
     logging.debug(f'Counting records...')
     num_job_post, num_blahd_post, num_event_post = count_records()
 
-    num_job_post = count_records()
+    results = {
+        'procedure_time': run_time,
+        'num_records_generated': n,
+        'num_blahd_pre': num_blahd_pre,
+        'num_blahd_post': num_blahd_post,
+        'num_event_pre': num_event_pre,
+        'num_event_post': num_event_post,
+        'num_job_pre': num_job_pre,
+        'num_job_post': num_job_post,
+    }
 
     #write_results(num_records_generated=n, num_jobrecords_processed)
 
     with open(dir/'result', 'w') as f:
-        f.write(f'procedure_time: {run_time}\n')
-        f.write(f'num_records_generated: {n}\n')
-        f.write(f'num_blahd_pre: {num_rec_pre}\n')
-        f.write(f'num_blahd_post: {num_rec_post}\n')
-        f.write(f'num_event_pre: {num_event_pre}\n')
-        f.write(f'num_event_post: {num_event_post}\n')
-        f.write(f'num_job_pre: {num_job_pre}\n')
-        f.write(f'num_job_post: {num_job_post}\n')
+        [f.write(f'{k}: {v}\n') for k, v in results.items()]
+
+    logging.info(f'time {run_time}')
+    return results
 
 
-    logging.info(f'time {run_time}, processed: {num_jobrecords}')
-    return num_jobrecords, run_time
+def experiment(schedule):
 
-
-def experiment():
-
-    print(count_records())
-    return
-
-    results = []
+    results_list = []
     for i, n in enumerate(schedule):
         logging.info(f'Run: {i}')
 
         run_dir = session_dir / f'run.{i}'
         run_dir.mkdir(exist_ok=False)
 
-        k, t = run(n, dir=run_dir)
+        results = run(n, dir=run_dir)
 
-        results.append((n, k, t))
+        results_list.append(results)
 
-    return results
+    return results_list
 
 
 exp_dir = pathlib.Path(config['experiment_dir'])
@@ -180,22 +213,16 @@ logging.basicConfig(filename=config['log_file'],
 
 
 if __name__ == '__main__':
-    results = experiment()
-    exit(0)
 
     start_time = get_datetime()
     logging.info(f'Session: {start_time}')
     logging.info(f'Config: {config}')
 
-    schedule = mkschedule(config['n_records_start'],
-                          config['n_records_stop'], 
-                          config['n_steps'], config['n_repeat'], 
-                          method=config['schedule'])
+    schedule = mkschedule()
 
     logging.info(f'Schedule: {list(schedule)}')
 
-    results = experiment()
-
+    results = experiment(schedule)
 
     finish_time = get_datetime()
     session_time = finish_time.timestamp() - start_time.timestamp()
