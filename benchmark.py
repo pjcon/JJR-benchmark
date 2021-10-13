@@ -25,7 +25,7 @@ config = {
         'n_steps': 10,
         'n_repeat': 1,
         'schedule': 'linear', # linear/exponential
-        'results_key': ['num_records', 'num_jobrecords', 'procedure_time']
+        'results_key': ['num_records', 'num_jobrecords', 'procedure_time'],
         'mode':'fresh' # fresh/old - fresh deletes all data, old deletes only recent records
 }
 
@@ -139,6 +139,7 @@ def experiment():
         results.append((n, k, t))
 
     return results
+
 
 exp_dir = pathlib.Path(config['experiment_dir'])
 session_dir = exp_dir / f'session.{len(os.listdir(exp_dir))}.{int(get_datetime().timestamp())}'
