@@ -1,6 +1,6 @@
 USE clientdb;
 
-LOAD DATA INFILE 'spec.csv' INTO TABLE SpecRecords 
+LOAD DATA INFILE 'spec.csv' IGNORE INTO TABLE SpecRecords 
     FIELDS TERMINATED BY ',' 
     ENCLOSED BY '"' 
     LINES TERMINATED BY '\n' 
