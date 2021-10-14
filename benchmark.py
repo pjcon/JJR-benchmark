@@ -24,17 +24,17 @@ config = {
         #'n_records_stop': 1000,
         #'n_steps': 10,
         'n_repeat': 1,
-        'schedule': [10, 20, 30, 40, 50], # <list>/linear/exponential/power10
+        'schedule': [100, 200, 500, 1000], # <list>/linear/exponential/power10
         'preload':True, # repeat schedule starting with preloaded values
-        'preload_schedule':[10, 100, 1000, 2000],
-        #'preload_scale':[1,2,3,4],
+        'preload_schedule':[100, 1000, 10000, 50000, 100000, 500000, 1000000],
+        #'preload_scale':[1, 2, 3, 4],
         'results_key': [ 'procedure_time',
                          'num_records_generated', 
                          'num_blahd_pre', 'num_blahd_post',
                          'num_event_pre', 'num_event_post',
                          'num_job_pre', 'num_job_post',
                          ],
-        'delete_old_records':True
+        'delete_old_records':False
 }
 
 def get_datetime():
