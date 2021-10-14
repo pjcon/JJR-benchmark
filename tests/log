@@ -1,0 +1,2592 @@
+INFO:root:Session: 2021-10-11 15:25:21.170286
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-11 15:25:35.135846
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-11 15:26:03.420312
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+INFO:root:Session: 2021-10-11 15:58:42.264244
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:Session: 2021-10-11 17:10:59.758823
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4895462989807129, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5041594505310059, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5753922462463379, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4849233627319336, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4936826229095459, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4904029369354248, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4862964153289795, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48761439323425293, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4891166687011719, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4834001064300537, processed: 21951
+INFO:root:Session time: 9.734400033950806
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:11:09.493305
+INFO:root:Writing results to: tests/session.5.1633968659/results.csv
+INFO:root:Finished: 2021-10-11 17:11:09.493223
+INFO:root:Session: 2021-10-11 17:11:33.560398
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48564696311950684, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49666309356689453, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4967031478881836, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4829134941101074, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4861464500427246, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48412466049194336, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4829106330871582, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5803210735321045, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4977891445159912, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48330020904541016, processed: 21951
+INFO:root:Session time: 6.676656007766724
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:11:40.237131
+INFO:root:Writing results to: tests/session.6.1633968693/results.csv
+INFO:root:Finished: 2021-10-11 17:11:40.237054
+INFO:root:Session: 2021-10-11 17:12:09.374352
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5090911388397217, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5017251968383789, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49820828437805176, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5231153964996338, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4958531856536865, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4969508647918701, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49141716957092285, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5111372470855713, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49518871307373047, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49370384216308594, processed: 21951
+INFO:root:Session time: 6.738889932632446
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:12:16.113338
+INFO:root:Writing results to: tests/session.7.1633968729/results.csv
+INFO:root:Finished: 2021-10-11 17:12:16.113242
+INFO:root:Session: 2021-10-11 17:12:46.211566
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49756813049316406, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5087847709655762, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48546481132507324, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5020782947540283, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4889869689941406, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48702216148376465, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5079770088195801, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5086414813995361, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4887673854827881, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48937129974365234, processed: 21951
+INFO:root:Session time: 6.6712119579315186
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:12:52.882903
+INFO:root:Writing results to: tests/session.8.1633968766/results.csv
+INFO:root:Finished: 2021-10-11 17:12:52.882778
+INFO:root:Session: 2021-10-11 17:13:33.202148
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5031147003173828, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5037429332733154, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49716806411743164, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4854412078857422, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5152313709259033, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5048089027404785, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49057865142822266, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5359950065612793, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5858345031738281, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5045952796936035, processed: 21951
+INFO:root:Session time: 6.848829030990601
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:13:40.051062
+INFO:root:Writing results to: tests/session.9.1633968813/results.csv
+INFO:root:Finished: 2021-10-11 17:13:40.050977
+INFO:root:Session: 2021-10-11 17:13:49.277176
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5070185661315918, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49761414527893066, processed: 21951
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48311758041381836, processed: 21951
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4935915470123291, processed: 21951
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5098395347595215, processed: 21951
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4857194423675537, processed: 21951
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48818111419677734, processed: 21951
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48810672760009766, processed: 21951
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.48739075660705566, processed: 21951
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.4888598918914795, processed: 21951
+INFO:root:Session time: 6.63112211227417
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:13:55.908390
+INFO:root:Writing results to: tests/session.10.1633968829/results.csv
+INFO:root:Finished: 2021-10-11 17:13:55.908298
+INFO:root:Session: 2021-10-11 17:14:06.410161
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 1, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Session: 2021-10-11 17:14:15.911979
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 2, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5271635055541992, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.49198126792907715, processed: 21951
+INFO:root:Session time: 1.3998990058898926
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:14:17.311980
+INFO:root:Writing results to: tests/session.12.1633968855/results.csv
+INFO:root:Finished: 2021-10-11 17:14:17.311878
+INFO:root:Session: 2021-10-11 17:17:13.257654
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 2, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+INFO:root:Session: 2021-10-11 17:18:52.291643
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 2, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5127108097076416, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.5428571701049805, processed: 21951
+INFO:root:Session time: 1.4450581073760986
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:18:53.736800
+INFO:root:Writing results to: tests/session.14.1633969132/results.csv
+INFO:root:Finished: 2021-10-11 17:18:53.736701
+INFO:root:Session: 2021-10-11 17:23:41.109544
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 2, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 1.17647385597229, processed: 21951
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+INFO:root:Session: 2021-10-11 17:24:10.151067
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 2, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.09261846542358398, processed: 25
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.08002567291259766, processed: 207
+INFO:root:Session time: 1.1724929809570312
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:24:11.323653
+INFO:root:Writing results to: tests/session.16.1633969450/results.csv
+INFO:root:Finished: 2021-10-11 17:24:11.323560
+INFO:root:Session: 2021-10-11 17:24:34.161566
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time']}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.037366628646850586, processed: 15
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.052671194076538086, processed: 53
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.06234097480773926, processed: 56
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.05054521560668945, processed: 78
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.03247356414794922, processed: 118
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.04762768745422363, processed: 136
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.05761146545410156, processed: 132
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.06717920303344727, processed: 178
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.04493904113769531, processed: 188
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.0479884147644043, processed: 235
+INFO:root:Session time: 3.541529893875122
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-11 17:24:37.703294
+INFO:root:Writing results to: tests/session.17.1633969474/results.csv
+INFO:root:Finished: 2021-10-11 17:24:37.703096
+INFO:root:Session: 2021-10-13 13:38:56.045311
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_records_start': 100, 'n_records_stop': 1000, 'n_steps': 10, 'n_repeat': 1, 'schedule': 'linear', 'results_key': ['num_records', 'num_jobrecords', 'procedure_time'], 'mode': 'fresh'}
+INFO:root:Schedule: [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.04018568992614746, processed: 21
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.036813974380493164, processed: 40
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.06567096710205078, processed: 81
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.06630897521972656, processed: 74
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.03286147117614746, processed: 107
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.04237198829650879, processed: 124
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.0343317985534668, processed: 157
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.05060529708862305, processed: 190
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.05390739440917969, processed: 173
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records. (mode: fresh)
+DEBUG:root:Loading records.
+DEBUG:root:Running procedure...
+INFO:root:time 0.06149601936340332, processed: 207
+INFO:root:Session time: 6.82428503036499
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 13:39:02.869693
+INFO:root:Writing results to: tests/session.18.1634128736/results.csv
+INFO:root:Finished: 2021-10-13 13:39:02.869596
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/connorjp/.local/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 213; new: 222
+DEBUG:parso.python.diff:-> code[equal] old[1:41] new[1:41]
+DEBUG:parso.python.diff:copy old[3:40] new[1:40]
+DEBUG:parso.python.diff:parse_part from 41 to 41 (to 41 in part parser)
+DEBUG:parso.python.diff:-> code[replace] old[42:54] new[42:63]
+DEBUG:parso.python.diff:parse_part from 42 to 63 (to 67 in part parser)
+DEBUG:parso.python.diff:-> code[equal] old[55:213] new[64:222]
+DEBUG:parso.python.diff:copy old[59:182] new[64:191]
+DEBUG:parso.python.diff:parse_part from 192 to 221 (to 221 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/connorjp/.local/lib/python3.9/site-packages/numpy/__init__.py
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/connorjp/.local/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+DEBUG:parso.cache:pickle loaded: /home/connorjp/.local/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+DEBUG:parso.python.diff:diff parser start
+DEBUG:parso.python.diff:line_lengths old: 1; new: 1
+DEBUG:parso.python.diff:-> code[replace] old[1:1] new[1:1]
+DEBUG:parso.python.diff:parse_part from 1 to 1 (to 0 in part parser)
+DEBUG:parso.python.diff:diff parser end
+DEBUG:parso.cache:pickle loaded: /home/connorjp/.local/lib/python3.9/site-packages/numpy/__init__.py
+INFO:root:Session: 2021-10-13 16:14:51.813913
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [array([10, 10, 20, 30, 40, 50]), array([100,  10,  20,  30,  40,  50]), array([1000,   10,   20,   30,   40,   50]), array([2000,   10,   20,   30,   40,   50])]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-13 16:18:57.609215
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [array([10, 10, 20, 30, 40, 50]), array([100,  10,  20,  30,  40,  50]), array([1000,   10,   20,   30,   40,   50]), array([2000,   10,   20,   30,   40,   50])]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-13 16:20:13.615667
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [array([10, 10, 20, 30, 40, 50]), array([100,  10,  20,  30,  40,  50]), array([1000,   10,   20,   30,   40,   50]), array([2000,   10,   20,   30,   40,   50])]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-13 16:20:42.073524
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [array([10, 10, 20, 30, 40, 50]), array([100,  10,  20,  30,  40,  50]), array([1000,   10,   20,   30,   40,   50]), array([2000,   10,   20,   30,   40,   50])]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-13 16:22:16.342900
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [array([10, 10, 20, 30, 40, 50]), array([100,  10,  20,  30,  40,  50]), array([1000,   10,   20,   30,   40,   50]), array([2000,   10,   20,   30,   40,   50])]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+INFO:root:Session: 2021-10-13 16:23:14.926759
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Session: 2021-10-13 16:23:30.859014
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:Session: 2021-10-13 16:23:56.293451
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_job_pre', 'num_job_post', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post'], 'delete_old_records': False}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:Session: 2021-10-13 16:32:58.442589
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024467945098876953
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024139881134033203
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02401447296142578
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026760101318359375
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025564193725585938
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02437734603881836
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027051448822021484
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023322343826293945
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023932933807373047
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027588844299316406
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023665904998779297
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024574995040893555
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023185014724731445
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02826666831970215
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02584981918334961
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025847673416137695
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02357649803161621
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026196002960205078
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024703502655029297
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.045662879943847656
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03075575828552246
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03401827812194824
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028263092041015625
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03007030487060547
+INFO:root:Session time: 7.685713052749634
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 16:33:06.128408
+INFO:root:Writing results to: tests/session.72.1634139178/results.csv
+INFO:root:Session: 2021-10-13 16:33:35.209533
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023623943328857422
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02449941635131836
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027485370635986328
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027048826217651367
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023711681365966797
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026307344436645508
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028752565383911133
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023057937622070312
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02418351173400879
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03103327751159668
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026279449462890625
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024416685104370117
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02639603614807129
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025998353958129883
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024664640426635742
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025957822799682617
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026438236236572266
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02942490577697754
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024926185607910156
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0259552001953125
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023646831512451172
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023589134216308594
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0262758731842041
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024512290954589844
+INFO:root:Session time: 4.922169923782349
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 16:33:40.131792
+INFO:root:Writing results to: tests/session.73.1634139215/results.csv
+INFO:root:Finished: 2021-10-13 16:33:40.131703
+INFO:root:Session: 2021-10-13 16:36:23.600681
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02489495277404785
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.026619672775268555
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023839235305786133
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025822162628173828
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03045201301574707
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023770570755004883
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.029400110244750977
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025556325912475586
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02955770492553711
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023563861846923828
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02661752700805664
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02367401123046875
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027554035186767578
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02566838264465332
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023133516311645508
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023119211196899414
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02705240249633789
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02302241325378418
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02413010597229004
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.025551795959472656
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.023590564727783203
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024419069290161133
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.024375200271606445
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02382493019104004
+INFO:root:Session time: 4.260056018829346
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 16:36:27.860861
+INFO:root:Writing results to: tests/session.74.1634139383/results.csv
+INFO:root:Finished: 2021-10-13 16:36:27.860737
+INFO:root:Session: 2021-10-13 16:41:13.619507
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [10, 20, 30, 40, 50], 'preload': True, 'preload_schedule': [10, 100, 1000, 2000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': True}
+INFO:root:Schedule: [10, 10, 20, 30, 40, 50, 100, 10, 20, 30, 40, 50, 1000, 10, 20, 30, 40, 50, 2000, 10, 20, 30, 40, 50]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.036040306091308594
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0316309928894043
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028185129165649414
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.029491186141967773
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0410306453704834
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0270235538482666
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03494071960449219
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03423619270324707
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027298688888549805
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03312802314758301
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.038021087646484375
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.027110576629638672
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.035492658615112305
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0370478630065918
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03406023979187012
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02961134910583496
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0432581901550293
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028540372848510742
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.04645657539367676
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.034348487854003906
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.030589818954467773
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.053915977478027344
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.036010026931762695
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Deleting all records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03531980514526367
+INFO:root:Session time: 6.39445686340332
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 16:41:20.014096
+INFO:root:Writing results to: tests/session.75.1634139673/results.csv
+INFO:root:Finished: 2021-10-13 16:41:20.013964
+INFO:root:Session: 2021-10-13 17:00:50.844958
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 3, 'schedule': [100, 200, 500, 1000], 'preload': True, 'preload_schedule': [100, 1000, 10000, 50000], 'preload_scale': [1, 2, 3, 4], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [100, 100, 100, 100, 200, 200, 200, 500, 500, 500, 1000, 1000, 1000, 1000, 200, 200, 200, 400, 400, 400, 1000, 1000, 1000, 2000, 2000, 2000, 10000, 300, 300, 300, 600, 600, 600, 1500, 1500, 1500, 3000, 3000, 3000, 50000, 400, 400, 400, 800, 800, 800, 2000, 2000, 2000, 4000, 4000, 4000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03380012512207031
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028685569763183594
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.032982826232910156
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.034752845764160156
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.05370688438415527
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.043009042739868164
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03569364547729492
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.052809715270996094
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0548243522644043
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.05149054527282715
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.07775473594665527
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.08074450492858887
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.07434344291687012
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.07898235321044922
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06792855262756348
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06792116165161133
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0744936466217041
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.07384443283081055
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.08541488647460938
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.08487892150878906
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.12133526802062988
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.1548781394958496
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.10796356201171875
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.1470792293548584
+INFO:root:Run: 24
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.16745853424072266
+INFO:root:Run: 25
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.1841893196105957
+INFO:root:Run: 26
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.2987816333770752
+INFO:root:Run: 27
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.1950695514678955
+INFO:root:Run: 28
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.17240452766418457
+INFO:root:Run: 29
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.16903090476989746
+INFO:root:Run: 30
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.22548341751098633
+INFO:root:Run: 31
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.19093680381774902
+INFO:root:Run: 32
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.24862909317016602
+INFO:root:Run: 33
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.2476940155029297
+INFO:root:Run: 34
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.29079675674438477
+INFO:root:Run: 35
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.27359461784362793
+INFO:root:Run: 36
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.31136131286621094
+INFO:root:Run: 37
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.32594728469848633
+INFO:root:Run: 38
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.3651742935180664
+INFO:root:Run: 39
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.9434161186218262
+INFO:root:Run: 40
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.6403415203094482
+INFO:root:Run: 41
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.766815185546875
+INFO:root:Run: 42
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.8202519416809082
+INFO:root:Run: 43
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.7681887149810791
+INFO:root:Run: 44
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.7612979412078857
+INFO:root:Run: 45
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.5745809078216553
+INFO:root:Run: 46
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.3857762813568115
+INFO:root:Run: 47
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.4199621677398682
+INFO:root:Run: 48
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 2.3239941596984863
+INFO:root:Run: 49
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 2.1003448963165283
+INFO:root:Run: 50
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.8387243747711182
+INFO:root:Run: 51
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.9076924324035645
+INFO:root:Session time: 63.12526893615723
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 17:01:53.970305
+INFO:root:Writing results to: tests/session.76.1634140850/results.csv
+INFO:root:Finished: 2021-10-13 17:01:53.970227
+INFO:root:Session: 2021-10-13 17:13:07.029649
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [100, 200, 500, 1000], 'preload': True, 'preload_schedule': [100, 1000, 10000, 50000, 100000, 500000, 1000000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [100, 100, 200, 500, 1000, 1000, 100, 200, 500, 1000, 10000, 100, 200, 500, 1000, 50000, 100, 200, 500, 1000, 100000, 100, 200, 500, 1000, 500000, 100, 200, 500, 1000, 1000000, 100, 200, 500, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.07469868659973145
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028944015502929688
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0384671688079834
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06219673156738281
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.059664011001586914
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.05437827110290527
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.08277583122253418
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06565332412719727
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.08602142333984375
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06681370735168457
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.24069881439208984
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.10172772407531738
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.0957636833190918
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.11656928062438965
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.16109347343444824
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.0718581676483154
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.8048372268676758
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.4053506851196289
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.48070526123046875
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.3799877166748047
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 3.5149197578430176
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.6612355709075928
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.570305347442627
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.6154518127441406
+INFO:root:Run: 24
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.639988660812378
+INFO:root:Run: 25
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:Session: 2021-10-13 17:35:31.555961
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [100, 200, 500, 1000], 'preload': True, 'preload_schedule': [100, 1000, 10000, 50000, 100000, 500000, 1000000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [100, 100, 200, 500, 1000, 1000, 100, 200, 500, 1000, 10000, 100, 200, 500, 1000, 50000, 100, 200, 500, 1000, 100000, 100, 200, 500, 1000, 500000, 100, 200, 500, 1000, 1000000, 100, 200, 500, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+INFO:root:Session: 2021-10-13 17:38:28.871632
+INFO:root:Config: {'experiment_dir': './tests', 'log_file': './tests/log', 'results_file': './results.csv', 'n_repeat': 1, 'schedule': [100, 200, 500, 1000], 'preload': True, 'preload_schedule': [100, 1000, 10000, 50000, 100000, 500000, 1000000], 'results_key': ['procedure_time', 'num_records_generated', 'num_blahd_pre', 'num_blahd_post', 'num_event_pre', 'num_event_post', 'num_job_pre', 'num_job_post'], 'delete_old_records': False}
+INFO:root:Schedule: [100, 100, 200, 500, 1000, 1000, 100, 200, 500, 1000, 10000, 100, 200, 500, 1000, 50000, 100, 200, 500, 1000, 100000, 100, 200, 500, 1000, 500000, 100, 200, 500, 1000, 1000000, 100, 200, 500, 1000]
+INFO:root:Run: 0
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.02840423583984375
+INFO:root:Run: 1
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.028360843658447266
+INFO:root:Run: 2
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03865957260131836
+INFO:root:Run: 3
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.03822731971740723
+INFO:root:Run: 4
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.04754495620727539
+INFO:root:Run: 5
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06682896614074707
+INFO:root:Run: 6
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.04600214958190918
+INFO:root:Run: 7
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.04812264442443848
+INFO:root:Run: 8
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.05838608741760254
+INFO:root:Run: 9
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.06848001480102539
+INFO:root:Run: 10
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.250701904296875
+INFO:root:Run: 11
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.1296396255493164
+INFO:root:Run: 12
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.09040284156799316
+INFO:root:Run: 13
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.11034941673278809
+INFO:root:Run: 14
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.12236809730529785
+INFO:root:Run: 15
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.6827113628387451
+INFO:root:Run: 16
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.6125431060791016
+INFO:root:Run: 17
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.6013600826263428
+INFO:root:Run: 18
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.6107854843139648
+INFO:root:Run: 19
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 0.6550183296203613
+INFO:root:Run: 20
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 3.6894726753234863
+INFO:root:Run: 21
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.5266516208648682
+INFO:root:Run: 22
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.5950076580047607
+INFO:root:Run: 23
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.5555882453918457
+INFO:root:Run: 24
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1.575829267501831
+INFO:root:Run: 25
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 305.5810196399689
+INFO:root:Run: 26
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 40.49033784866333
+INFO:root:Run: 27
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 43.376219749450684
+INFO:root:Run: 28
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 46.6262321472168
+INFO:root:Run: 29
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 52.74262809753418
+INFO:root:Run: 30
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 1675.2196352481842
+INFO:root:Run: 31
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 436.71420073509216
+INFO:root:Run: 32
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 365.79754424095154
+INFO:root:Run: 33
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 376.4353301525116
+INFO:root:Run: 34
+DEBUG:root:Generating records.
+DEBUG:root:Transferring records.
+DEBUG:root:Loading records.
+DEBUG:root:Counting records...
+DEBUG:root:Running procedure...
+DEBUG:root:Counting records...
+INFO:root:time 381.19082474708557
+INFO:root:Session time: 6142.520655870438
+INFO:root:Writing file.
+INFO:root:Date: 2021-10-13 19:20:51.392409
+INFO:root:Writing results to: tests/session.79.1634143108/results.csv
+INFO:root:Finished: 2021-10-13 19:20:51.392288
