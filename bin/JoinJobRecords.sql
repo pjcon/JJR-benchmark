@@ -1,6 +1,6 @@
 -- ------------------------------------------------------------------------------
 -- Procedure for converting EventRecords + BlahdRecords into JobRecords
-DROP PROCEDURE IF EXISTS JoinJobRecords;
+--DROP PROCEDURE IF EXISTS JoinJobRecords;
 DELIMITER //
 CREATE PROCEDURE JoinJobRecords()
 BEGIN
