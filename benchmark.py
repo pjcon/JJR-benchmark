@@ -1,12 +1,7 @@
 #!/bin/env python
 
-"""
-
-
-
-"""
-
 import os
+import sys
 import shutil
 import time
 import datetime
@@ -15,6 +10,11 @@ import pathlib
 import subprocess
 
 import numpy as np
+
+USAGE=f"""{sys.argv[0]} [procedure n]
+
+"""
+
 
 config = {
         'experiment_dir': './tests',
@@ -34,7 +34,8 @@ config = {
                          'num_event_pre', 'num_event_post',
                          'num_job_pre', 'num_job_post',
                          ],
-        'delete_old_records':False
+        'delete_old_records':False,
+        'call_procedure_n':''
 }
 
 def get_datetime():
@@ -137,7 +138,7 @@ def count_records():
 #def write_results(**kwargs): # kwargs should match results key
     #pass
 
-def run(n, dir='./'):
+def run(n, dir='./', procedure=procedure):
 
     logging.debug('Generating records.')
     generate_records(n, dir)
@@ -149,6 +150,9 @@ def run(n, dir='./'):
         logging.debug(f'Deleting all records.')
         delete_all_records()
 
+    if 'call_procedure_n' in config and not procedure:
+        procedure = config['call_procedure_n']
+
     logging.debug('Loading records.')
     load_records()
 
@@ -157,7 +161,7 @@ def run(n, dir='./'):
 
     logging.debug(f'Running procedure...')
     run_start = time.time()
-    call_procedure()
+    call_procedure(n=procedure)
     run_time = time.time() - run_start
     
     logging.debug(f'Counting records...')
@@ -183,7 +187,7 @@ def run(n, dir='./'):
     return results
 
 
-def experiment(schedule):
+def experiment(schedule, procedure=''):
 
     results_list = []
     for i, n in enumerate(schedule):
@@ -192,7 +196,7 @@ def experiment(schedule):
         run_dir = session_dir / f'run.{i}'
         run_dir.mkdir(exist_ok=False)
 
-        results = run(n, dir=run_dir)
+        results = run(n, dir=run_dir, procedure=procedure)
 
         results_list.append(results)
 
@@ -213,6 +217,10 @@ logging.basicConfig(filename=config['log_file'],
 
 
 if __name__ == '__main__':
+    import sys
+
+    if len(sys.argv[1]) > 1:
+        proc_n = sys.argv[1]
 
     start_time = get_datetime()
     logging.info(f'Session: {start_time}')
@@ -222,7 +230,7 @@ if __name__ == '__main__':
 
     logging.info(f'Schedule: {list(schedule)}')
 
-    results = experiment(schedule)
+    results = experiment(schedule, procedure=proc_n)
 
     finish_time = get_datetime()
     session_time = finish_time.timestamp() - start_time.timestamp()
